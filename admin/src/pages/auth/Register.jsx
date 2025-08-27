@@ -36,9 +36,9 @@ export default function Register() {
     }
     else{
      
-    localStorage.setItem("token", data.token) 
-    setToken(data.token);
-    pagenavigate("/")
+    // localStorage.setItem("token", data.token) 
+    // setToken(data.token);
+    pagenavigate("/users")
     
     }
 

@@ -20,7 +20,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={appUser?<Home/>:<Login/>} />
-          <Route path='/register' element={<Register/>} />
+          <Route path='/register' element={appUser?<Register/>:<Login/>} />
           <Route path='/login' element={appUser?<Home/>:<Login/>} />
           <Route path='/sermons' element={appUser?<Sermons/>:<Login/>} />
           <Route path='/news' element={appUser?<News/>:<Login/>} />
