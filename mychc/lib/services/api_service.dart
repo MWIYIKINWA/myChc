@@ -8,7 +8,8 @@ import 'package:mychc/models/user_model.dart';
 import 'package:mychc/services/constants.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://127.0.0.1:8000/api';
+  //static const String baseUrl = 'http://127.0.0.1:8000/api';
+  static const String baseUrl = 'https://mychc.ssengebaptistchurch.org/api';
 
   final utubeapiKey = Constants.youtube_API_Key;
   final utubechannelId = Constants.youtube_Channel_ID;

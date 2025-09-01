@@ -7,8 +7,10 @@ plugins {
 
 android {
     namespace = "com.example.mychc"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    //compileSdk = flutter.compileSdkVersion
+    compileSdk = 35
+    ndkVersion = "27.3.13750724"
+    
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -21,13 +23,19 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.mychc"
+        applicationId = "com.mychc.app"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        //minSdk = 23
+        //targetSdk = 23
+         //versionCode = flutterVersionCode.toInt()
+        //versionName = flutterVersionName
+        //multiDexEnabled = true 
+            minSdk = 23
+            targetSdk = 35
+            versionCode = 1
+            versionName = "1.0.0"
+            multiDexEnabled = true
     }
 
     buildTypes {

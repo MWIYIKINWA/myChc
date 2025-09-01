@@ -85,7 +85,7 @@ class _VideoSermonsState extends State<VideoSermons> {
                         Image.network(
                           thumbnailUrl,
                           width: double.infinity,
-                          height: 230,
+                          height: 200,
                           fit: BoxFit.fill,
                           errorBuilder: (context, error, stackTrace) {
                             return Container(

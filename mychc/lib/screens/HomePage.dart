@@ -573,7 +573,7 @@ class HomePage extends ConsumerWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
-          margin: EdgeInsets.only(top: 10.0, left: 30.0, right: 30.0),
+          margin: EdgeInsets.only(top: 10.0, left: 20.0, right: 20.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -583,7 +583,7 @@ class HomePage extends ConsumerWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Hello, $userName", // Dynamic user name
+                    "Hello, $userName", // Logged in user
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 15.0,
@@ -612,7 +612,7 @@ class HomePage extends ConsumerWidget {
                       Text(
                         "Family Series: The Threefold Cord",
                         style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
                         ),
@@ -620,7 +620,7 @@ class HomePage extends ConsumerWidget {
                       SizedBox(height: 8),
                       Text(
                         "Trust in the Lord with all your heart and lean not on your own understanding...",
-                        style: TextStyle(fontSize: 16, color: Colors.black),
+                        style: TextStyle(fontSize: 13, color: Colors.black),
                       ),
                       SizedBox(height: 8),
                       Text(
